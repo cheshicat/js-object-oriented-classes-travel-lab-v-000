@@ -21,5 +21,11 @@ class Route {
     return vertical + horizontal
   }
 
-  estimatedTime() {}
+  estimatedTime(peak) {
+    if (peak) {
+
+    } else {
+
+    }
+  }
 }
