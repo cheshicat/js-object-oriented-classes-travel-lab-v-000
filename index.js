@@ -25,7 +25,7 @@ class Route {
     if (peak) {
       return (this.blocksTravelled()/3)
     } else {
-      this.blocksTravelled()/2
+      return (this.blocksTravelled()/2)
     }
   }
 }
