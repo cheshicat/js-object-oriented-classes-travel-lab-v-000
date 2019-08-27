@@ -4,7 +4,7 @@ class Driver {
     this.startDate = new Date()
   }
   yearsExperienceFromBeginningOf() {
-    endDate = Date.now ()
+    this.endDate = Date.now ()
     elapsed = endDate.getFullYear() - startDate.getFullYear()
   }
 }
